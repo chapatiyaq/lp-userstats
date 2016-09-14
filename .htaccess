@@ -1,0 +1,8 @@
+<FilesMatch "\.(?:inc)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+<Files "execute.php">
+Order Allow,Deny
+Deny from all
+</Files>

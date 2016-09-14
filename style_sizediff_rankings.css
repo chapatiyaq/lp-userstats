@@ -1,0 +1,60 @@
+a {
+	text-decoration: none;
+	color: #002bb8;
+}
+a:hover {
+	text-decoration: underline;
+}
+table {
+	border-collapse: collapse;
+}
+tr {
+	border-bottom: 1px solid #e8e8e8;
+}
+th {
+	font-weight: bold;
+	text-align: center;
+}
+abbr {
+	border-bottom: 1px dotted black;
+	cursor: help;
+}
+th.name {
+	width: 100px;
+}
+th.wiki,
+th.total {
+	width: 90px;
+}
+tr.total-row {
+	color: #a0a0a0;
+}
+tr.user-row:nth-child(odd) {
+	background-color: #f8f8f8;
+}
+td.pos,
+td.wiki,
+td.total {
+	text-align: right;
+	padding-right: 3px;
+}
+.user-row td.wiki,
+.user-row td.total {
+	background: linear-gradient(to right,rgba(228,228,228,.3), rgba(1,1,1,0));
+}
+/*td.user {
+	background-color: #f0f0f0;
+}
+td.editor {
+	background-color: #accce9;
+}
+td.sysop {
+	background-color: #68a8e0;
+}*/
+.user-row td.bot {
+	background: url(icon_22_computer.png) no-repeat 3px,
+		linear-gradient(to right,rgba(228,228,228,.3), rgba(1,1,1,0));
+}
+span.info {
+	cursor: help;
+}
