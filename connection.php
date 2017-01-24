@@ -1,7 +1,7 @@
 <?php
-	define ('DBNAME', '');
-	define ('DBUSER', '');
-	define ('DBPASSWORD', '');
+	define ('DBNAME', 'tolueno_liquipedia');
+	define ('DBUSER', 'tolueno_admin');
+	define ('DBPASSWORD', '7(C4?`cZ;DSFG+=.h`@&KHm$');
 
 	class Connection {
 
