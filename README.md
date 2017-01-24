@@ -14,7 +14,7 @@ Example of cron table entry to execute the script every day at 12:00 am:
 
 __Note: Only if you want to use the sizediff rankings__
 
-In 'connection.php', set the values of  DBNAME, DBUSER and DBPASSWORD, the database name, user name and password for access to the database (SELECT, INSERT INTO, and UPDATE operations)
+Rename 'connection.php.example' to 'connection.php' then set the values of DBNAME, DBUSER and DBPASSWORD, the database name, user name and password for access to the database (SELECT, INSERT INTO, and UPDATE operations)
 
 # User agent
 
